@@ -25,7 +25,7 @@ const renderData = async(currentWidget, templateId) => {
         const img = document.createElement('img');
         img.width = 82;
         img.height = 94;
-        img.src = `"https://${window.location.host}`+ snippetData?.skill_srcs[index];
+        img.src = `https://bossnet-dev.web.app`+ snippetData?.skill_srcs[index];
         const skillText = document.createElement('span');
         skillText.className = 'd-flex position-absolute fs10 fontDMSans justify-content-center text-center';
         skillText.style.color = (snippetData?.clients[index] === 'Verified') ? 'white' : 'black';
