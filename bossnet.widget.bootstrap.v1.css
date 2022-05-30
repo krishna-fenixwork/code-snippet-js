@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+:root {
+    --font-family-DMSans: "DM Sans";
+}
+.fontDMSans {
+    font-family: var(--font-family-DMSans) !important;
+    font-style: normal !important;
+}
+.bossnet-badge-widget{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    /* justify-content: center; */
+}
+.fs8 {
+    font-size: 8px;
+}
+.fs9 {
+    font-size: 9px;
+}
+.fs10 {
+    font-size: 10px;
+}
+.fs12 {
+    font-size: 12px;
+}
+.fs13 {
+    font-size: 13px;
+}
+.fs14 {
+    font-size: 14px;
+}
+.fs16 {
+    font-size: 16px;
+}
+.fs18 {
+    font-size: 18px;
+}
+.fs20 {
+    font-size: 20px;
+}
+.fs22 {
+    font-size: 22px;
+}
+.fs24 {
+    font-size: 24px;
+}
+.fs26 {
+    font-size: 26px;
+}
+.fs28 {
+    font-size: 28px;
+}
+.fs30 {
+    font-size: 30px;
+}
+.fs32 {
+    font-size: 32px;
+}
+.fs34 {
+    font-size: 34px;
+}
+.fs36 {
+    font-size: 36px;
+}
+.fs48 {
+    font-size: 48px;
+}
+.fs64 {
+    font-size: 64px;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fs96 {
+    font-size: 96px;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.col-gap-10{ column-gap: 10px;}
+
+/* .review-box{
+    background-color: #faf9fc; 
+    padding: 20px; 
+    row-gap: 20px;
+} */
+
+.d-flex{
+    display: flex;
+}
+.position-relative{
+    position: relative;
+} 
+.position-absolute{
+    position: absolute;
+} 
+.justify-content-center{
+    justify-content: center;
+} 
+.align-items-center{
+    align-items: center;
+} 
+.text-center{
+    text-align: center;
+}
+
+/* Media Query */
+@media screen and (max-width: 576px){
+    .badge-widget-container{
+        width: auto !important;
+        height: auto !important;
+    }
+}
